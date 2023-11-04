@@ -54,14 +54,11 @@ Elapsed: 00:01:02
 
 ## Constraints
 
-- Use the starter code provided. You must write the program implementation in assembly language in `program.asm`. An I/O helper function (`PrintString`) is included in `main.c`. No other external functions can be used.
 - You can assume the inputs (start time and end time) will be valid integer values.
 - You can assume the inputs (start time and end time) will be greater than `0`.
 - You can assume the start time will be **less than or equal to** the end time.
 - You can store the time values and the elapsed time components as 64-bit values. The predefined variables are set as QWORDs.
 
 ## Notes
-
-The program's main function is found in `main.c`. You do not need to make any changes to this file. The main function calls the `_program` function, which is defined in the assembly module `program.asm`. This is where you will implement the program. This configuration provides a helper I/O function (`PrintString`) that is called from within the assembly module to output text to the console.
 
 There is a useful time calculator at https://www.calculator.net/time-calculator.html. The `Time Calculator in Expression` section of that page is useful for testing different time inputs. You can use it to verify the accuracy of your program.
